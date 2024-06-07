@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Display</title>
+    <style>
+        .blue{
+            background-color: blue;
+            color: white;
+        }
+        .red{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display</h1>
+    <p>Berikut adalah contoh penggunaan properti display pada CSS:</p>
+    <ol>
+        <li>
+            <h2>Display: none</h2>
+            <p>Elemen dengan display:none tidak akan muncul di halaman.</p>
+            <p style="display: none;">Elemen ini tidak akan ditampilkan di halaman.</p>
+        </li>
+        <li>
+            <h2>Display: inline</h2>
+            <p>Elemen inline berada di baris yang sama dengan elemen lain, seperti teks.</p>
+            <span style="display: inline;" class="blue">Elemen inline</span>
+            <span style="display: inline;" class="red">Elemen inline lain</span>
+        </li>
+        <li>
+            <h2>Display: block</h2>
+            <p>Elemen block memenuhi lebar penuh kontainer dan dimulai di baris baru.</p>
+            <div style="display: block;" class="blue">Elemen block</div>
+            <div style="display: block;" class="red">Elemen block lain</div>
+        </li>
+        <li>
+            <h2>Display: inline-block</h2>
+            <p>Elemen inline-block berada di baris yang sama seperti inline, tapi bisa diberi ukuran.</p>
+            <div style="display: inline-block; width: 200px;" class="blue">Elemen inline-block</div>
+            <div style="display: inline-block;" class="red">Elemen inline-block lain</div>
+        </li>
+        <li>
+            <h2>Display: flex</h2>
+            <p>Elemen flex digunakan untuk membuat tata letak fleksibel yang bisa disesuaikan.</p>
+            <div style="display: flex;">
+                <div class="blue">Elemen 1</div>
+                <div class="red">Elemen 2</div>
+                <div class="blue">Elemen 3</div>
+            </div>
+        </li>
+        <li>
+            <h2>Display: grid</h2>
+            <p>Elemen grid digunakan untuk membuat tata letak grid yang terdiri dari baris dan kolom.</p>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                <div class="blue">Elemen 1</div>
+                <div class="red">Elemen 2</div>
+                <div class="blue">Elemen 3</div>
+                <div class="red">Elemen 4</div>
+            </div>
+        </li>
+    </ol>
+</body>
+</html>

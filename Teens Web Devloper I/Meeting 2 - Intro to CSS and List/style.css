@@ -1,0 +1,79 @@
+/* 
+Penjelasan Struktur CSS
+
+selector {
+    properti: value
+} 
+
+selector: adalah elemen yang dipilih dan akan diubah propertinya
+properti: adalah karakteristik yang dimiliki oleh sebuah elemen, misalnya warna, font, dll
+value: adalah nilai properi atau karakteristik yang baru misal h1 yg tadinya font-sizenya 20pt diubah jadi 30pt
+*/
+
+/*
+1. Memberikan style/gaya pada elemen tertentu
+*/
+p { /* disini kita akan mengubah elemen p atau paragraf*/ 
+    font-size: 20pt; /* diubah ukuran fontnya menjadi 20pt*/
+}
+/* 
+2. Memberikan style/gaya pada elemen dengan id tertentu
+*/
+#putra { /* disini kita akan mengubah elemen yang memiliki id='putra'*/
+    font-size: 30pt; /* ukuran font akan diubah ke 30pt*/
+    color: red; /* warna teksnya akan diubah ke warna merah*/
+}
+
+/*
+3. Memberikan style/gaya pada elemen dengan class tertentu
+*/
+.tombol { /* disini kita akan mengubah elemen yang memiliki class='tombol'*/
+    font-family: 'Courier New', Courier, monospace; /* diubah jenis font-nya*/
+    font-weight: bold; /* fontnya dijadikan bold */;
+    background-color: red; /* warna background dijadikan merah */;
+    color: white; /* warna teksnya dijadikan putih*/
+    padding: 10px; /* memberikan jarak */
+}
+
+.button-biru {
+    background-color: #007bff; /* Warna biru */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.button-green {
+    background-color: green; /* Warna biru */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.button-merah {
+    background-color: red; /* Warna biru */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
