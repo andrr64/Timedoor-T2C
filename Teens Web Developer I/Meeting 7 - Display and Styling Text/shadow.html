@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        .box-shadow-basic {
+            width: 200px;
+            height: 100px;
+            background-color: lightgray;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Bayangan dasar */
+            margin: 20px;
+            padding: 10px;
+        }
+        .box-shadow-inset {
+            width: 200px;
+            height: 100px;
+            background-color: lightgray;
+            box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); /* Bayangan di dalam */
+            margin: 20px;
+            padding: 10px;
+        }
+        .box-shadow-multiple {
+            width: 200px;
+            height: 100px;
+            background-color: lightgray;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.3); /* Bayangan ganda */
+            margin: 20px;
+            padding: 10px;
+        }
+        .text-shadow-basic {
+            font-size: 24px;
+            color: black;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Bayangan teks dasar */
+            margin: 20px;
+        }
+        .text-shadow-color {
+            font-size: 24px;
+            color: black;
+            text-shadow: 2px 2px 5px red; /* Bayangan teks berwarna */
+            margin: 20px;
+        }
+        .text-shadow-multiple {
+            font-size: 24px;
+            color: black;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(255, 0, 0, 0.5); /* Bayangan teks ganda */
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pengertian Shadow</h1>
+    <p>Shadow (bayangan) digunakan untuk memberikan efek bayangan pada elemen atau teks, membuat tampilan lebih menarik dan memberikan kesan kedalaman.</p>
+    
+    <h1>Contoh Variasi Box Shadow</h1>
+    <div class="box-shadow-basic">Bayangan Dasar</div>
+    <div class="box-shadow-inset">Bayangan Di Dalam</div>
+    <div class="box-shadow-multiple">Bayangan Ganda</div>
+
+    <h1>Contoh Variasi Text Shadow</h1>
+    <p class="text-shadow-basic">Bayangan Teks Dasar</p>
+    <p class="text-shadow-color">Bayangan Teks Berwarna</p>
+    <p class="text-shadow-multiple">Bayangan Teks Ganda</p>
+</body>
+</html>
