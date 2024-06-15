@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.header {
+    background-color: burlywood;
+    padding: 10px;
+    box-shadow: 10px 10px;
+}
