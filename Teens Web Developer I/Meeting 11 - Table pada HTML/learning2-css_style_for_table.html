@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Meeting 11: CSS style Tabel</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        #table_border {
+            border: solid blue 5px;
+        }
+
+        #table_border_dash {
+            border: dashed blue 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height: 100vh;">
+        <h2>Contoh 1 - atribut border-collapse: collapse</h2>
+        <table border="1">
+            <tr>
+                <td>Andreas</td>
+                <td>18</td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+
+        <h2>Contoh 2 - atribut border: solid blue 5px</h2>
+        <p>
+            <b>solid</b>: motif border bergaris <br>
+            <b>blue</b>: warna border biru <br>
+            <b>5px</b>: lebar border 5px
+        </p>
+        <table id="table_border" border="1">
+            <tr>
+                <td>Nama</td>
+                <td>Umur</td>
+            </tr>
+            <tr>
+                <td>Andreas</td>
+                <td>18</td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+
+        <h2>Contoh 3 - atribut border: dashed blue 5px</h2>
+        <p>
+            <b>dashed</b>: motif border bergaris putus-putus <br>
+            <b>blue</b>: warna border biru <br>
+            <b>5px</b>: lebar border 5px
+        </p>
+        <table id="table_border_dash" border="1 ">
+            <tr>
+                <td>Nama</td>
+                <td>Umur</td>
+            </tr>
+            <tr>
+                <td>Andreas</td>
+                <td>18</td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+
+    </div>
+    <hr>
+    <footer>
+        <p style="text-align: center;">
+            &copy; Andreas 2024
+        </p>
+    </footer>
+</body>
+
+</html>
