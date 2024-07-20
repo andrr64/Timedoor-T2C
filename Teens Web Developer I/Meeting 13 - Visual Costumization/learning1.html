@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Meeting 13 - Visual Costumization</title>
+    <style>
+        .img-border{
+            border: solid 5px red;
+        }
+
+        .img-border-radius {
+            border: solid 5px red;
+            border-radius: 20px;
+        }
+
+        .img-box-shadow {
+            box-shadow: 5px 5px #888888;
+        }
+        
+        .img-box-shadow-blur {
+            box-shadow: 5px 5px 10px #888888;
+        }
+
+        .img-opacity-50 {
+            opacity: 50%;
+        }
+
+        .img-hover-opacity-50:hover {
+            opacity: 50%;
+        }
+
+        .bg-auto {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBpUtt40qG1gY-smxTDMbAEMUjsD5Kc37q-beMUZ-4su3ePkpUVo66ZniCLiUMCwigTk0&usqp=CAU');
+            background-size: auto;
+            background-repeat: no-repeat;
+        }
+
+        .bg-cover {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBpUtt40qG1gY-smxTDMbAEMUjsD5Kc37q-beMUZ-4su3ePkpUVo66ZniCLiUMCwigTk0&usqp=CAU');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meeting 13 - Visual Costumization</h1>
+
+    <!-- Section 1: Menampilkan border dan border-radius pada suatu gambar -->
+    <section>
+        <h3>1. Menampilkan border dan mengatur border radius pada suatu gambar</h3>
+        <div style="display: flex;">
+            <div style="width: fit-content; margin-right: 50px;">
+                <p style="text-align: center;">Tanpa border</p>
+                <img src="https://robloxoutfit.com/wp-content/uploads/2021/12/Roblox-Memes-youjae2910.png" alt="" srcset="">
+            </div>
+            <div style="width: fit-content; margin-right: 50px;">
+                <p style="text-align: center;">Dengan <b>border</b></p>
+                <img class="img-border" src="https://robloxoutfit.com/wp-content/uploads/2021/12/Roblox-Memes-youjae2910.png" alt="" srcset="">
+            </div>
+            <div style="width: fit-content; margin-right: 50px;">
+                <p style="text-align: center;">Dengan <b>border</b> dan <b>border-radius</b></p>
+                <img class="img-border-radius" src="https://robloxoutfit.com/wp-content/uploads/2021/12/Roblox-Memes-youjae2910.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    
+    <br>
+    <hr>
+
+    <!-- Section 2: Menambahkan efek box-shadow dan blur pada suatu gambar -->
+    <section>
+        <h3>2. Menambahkan efek box-shadow dan blur pada suatu gambar</h3>
+        <div style="display: flex;">
+            <div style="width: fit-content; margin-right: 50px;">
+                <p style="text-align: center;">box-shadow: 5px 5px #888888</p>
+                <img class="img-box-shadow" src="https://robloxoutfit.com/wp-content/uploads/2021/12/Roblox-Memes-youjae2910.png" alt="" srcset="">
+            </div>
+            <div style="width: fit-content; margin-right: 50px;">
+                <p style="text-align: center;">box-shadow: 5px 5px 10px #888888</p>
+                <img class="img-box-shadow-blur" src="https://robloxoutfit.com/wp-content/uploads/2021/12/Roblox-Memes-youjae2910.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <hr>
+
+    <!-- Section 3: box-shadow -->
+    <section>
+        <h3>3. Menambahkan efek box-shadow dan blur pada suatu gambar</h3>
+        <div style="display: flex;">
+            <div style="width: fit-content; margin-right: 50px;">
+                <p style="text-align: center;">opacity: 100% (default) </p>
+                <img class="img-border-radius" src="https://robloxoutfit.com/wp-content/uploads/2021/12/Roblox-Memes-youjae2910.png" alt="" srcset="">
+            </div>
+            <div style="width: fit-content; margin-right: 50px;">
+                <p style="text-align: center;">opacity: 90%</p>
+                <img class="img-border-radius img-opacity-50" src="https://robloxoutfit.com/wp-content/uploads/2021/12/Roblox-Memes-youjae2910.png" alt="" srcset="">
+            </div>
+            <div style="width: fit-content; margin-right: 50px;">
+                <p style="text-align: center;">hover dengan opacity: 90%</p>
+                <img class="img-border-radius img-hover-opacity-50" src="https://robloxoutfit.com/wp-content/uploads/2021/12/Roblox-Memes-youjae2910.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <hr>
+
+    <h3>4. Background dengan background-size: auto</h3>
+    <section class="bg-auto" style="height: 100vh;">
+        
+    </section>
+    
+    <br>
+    <hr>
+
+    <h3>5. Background dengan background-size: cover</h3>
+    <section class="bg-cover" style="height: 100vh;">
+        
+    </section>
+    
+    <br>
+    <hr>
+    <section style="height: 200px;">
+
+    </section>
+</body>
+</html> 

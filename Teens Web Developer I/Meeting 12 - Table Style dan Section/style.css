@@ -1,0 +1,13 @@
+.col_with_padding {
+    padding: 10px;
+}
+
+.col_khusus {
+    color: white;
+    background-color: #55AAB7;
+}
+
+
+.col_hover:hover {
+    background-color: #BCBCBD;
+}
