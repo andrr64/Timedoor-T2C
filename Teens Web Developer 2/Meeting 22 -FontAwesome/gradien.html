@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradien</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center; /* Horizontal centering */
+            align-items: center;    /* Vertical centering */
+        }
+        .vertical-gradien{
+            background-image: linear-gradient(rgb(189, 86, 86), rgb(228, 224, 33));
+        }
+        .horizontal-gradien{
+            background-image: linear-gradient(to right,rgb(189, 86, 86), rgb(189, 86, 86), rgb(228, 224, 33));
+        }
+        .horizontal-gradien-80{
+            background-image: linear-gradient(to right, rgb(189, 86, 86) 80%, rgb(228, 224, 33));
+        }
+        .radial-gradien {
+            background-image: radial-gradient(red, yellow, green)
+        }
+        .radial-circle-gradien {
+            background-image: radial-gradient(circle,red, yellow, green)
+        }
+        .text-white{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container vertical-gradien">
+        <h1 class="text-white">
+            Gradien Vertikal
+        </h1>
+    </div>
+    <div class="container"></div>
+    <div class="container horizontal-gradien">
+        <h1 class="text-white">
+            Gradien Horizontal
+        </h1>
+    </div>
+    <div class="container"></div>
+    <div class="container horizontal-gradien-80">
+        <h1 class="text-white">
+            Gradien Horizontal (Merah 80%, sisanya 20%)
+        </h1>
+    </div>
+    <div class="container"></div>
+    <div class="container radial-gradien"></div>
+    <div class="container"></div>
+    <div class="container radial-circle-gradien"></div>
+</body>
+</html>
