@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML DOM</title>
+    <script>
+        function addContact(formulir) {
+            formulir.preventDefault(); // Mencegah form reload halaman
+            
+            // Ambil nilai dari input
+            const name = document.getElementById("name").value;
+            const phone = document.getElementById("phone").value;
+
+            if (name && phone) {
+                // Buat elemen <p> baru
+                const newContact = document.createElement("p");
+                // newContact = <p> </p>
+
+                newContact.textContent = `${name}: ${phone}`;
+                // newContact = <p>Ghazlan: 123</p>
+
+                // Tambahkan elemen <p> ke dalam container
+                const container = document.getElementById("container");
+                
+                
+                container.appendChild(newContact);
+
+                // Reset form setelah ditambah
+                document.getElementById("contactForm").reset();
+            }
+        }
+    </script>
 </head>
 <body>
+    <h1>Aplikasi Penyimpan Kontak</h1>
+    <hr>
+    
+    <div id="container">
+        <p>Oezil: 081212124444</p>
+        <p>Rifqi: 081212124444</p>
+        <p>Ghazlan: 123</p>
+    </div>
 
+    <hr>
+
+    <!-- Form untuk menambah kontak baru -->
+    <form id="contactForm" onsubmit="addContact(event)">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" required>
+        <br><br>
+        <label for="phone">Nomor Telepon:</label>
+        <input type="tel" id="phone" required>
+        <br><br>
+        <button type="submit">Tambah Kontak</button>
+    </form>
+    
 </body>
 </html>
