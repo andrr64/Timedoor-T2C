@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Bootstrap: Row</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="m-4">
+        <section class="mb-5">
+            <h2>Penggunaan Kelas <code>row</code> dalam Bootstrap</h2>
+            <p>Kelas <code>row</code> digunakan untuk membuat baris dalam grid Bootstrap. Setiap baris dapat memuat kolom yang diatur dalam ukuran dan lebar yang sesuai. Kelas ini membantu untuk menjaga struktur layout dan membuat elemen-elemen di dalamnya tersusun rapi.</p>
+
+            <h5>Contoh Penggunaan Kelas <code>row</code> Tanpa Gap</h5>
+            <div class="container">
+                <div class="row text-white p-3 mb-4">
+                    <div class="col bg-warning text-dark p-3">
+                        <p>Kolom 1</p>
+                    </div>
+                    <div class="col bg-info text-white p-3">
+                        <p>Kolom 2</p>
+                    </div>
+                    <div class="col bg-danger text-white p-3">
+                        <p>Kolom 3</p>
+                    </div>
+                </div>
+                <div class="row bg-primary text-white p-3 mb-4">
+                    <div class="col">
+                        <p>Kolom 1</p>
+                    </div>
+                    <div class="col">
+                        <p>Kolom 2</p>
+                    </div>
+                </div>
+                <div class="row bg-success text-white p-3">
+                    <div class="col">
+                        <p>Kolom 1</p>
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="mt-4">Contoh Penggunaan Kelas <code>row</code> dengan <code>column-gap-2</code></h5>
+            <div class="container">
+                <div class="row-gap-2 column-gap-2 mb-4"> 
+                    <div class="col bg-warning text-dark p-3">
+                        <p>Kolom 1</p>
+                    </div>
+                    <div class="col bg-info text-white p-3">
+                        <p>Kolom 2</p>
+                    </div>
+                    <div class="col bg-danger text-white p-3">
+                        <p>Kolom 3</p>
+                    </div>
+                </div>
+            </div>
+
+            <p>Setiap <code>row</code> secara otomatis mengatur margin negatif di sisi kiri dan kanan, untuk mengimbangi padding pada kolom. Ini memastikan bahwa kolom akan selalu berada di tepi kontainer.</p>
+        </section>
+    </main>
+
+    <!-- Bootstrap Bundle JS yang sudah include popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-kFG5Gf0BOaTw8FjdhF5UyJmiO2oZG/Cx7+YzH/Fb4QdsI3gD7ZdN8oA6jYx5yLREVV8WsrmH9Z3vWfN1kT9fiA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
