@@ -1,0 +1,6 @@
+redmi-13-pro-5g: 4.399.000
+redmi-13: 1.799.000
+redmi-13c: 1.399.000
+redmi-note-13-pro: 3.499.000
+redmi-note-13-pro-5g: 5.999.000
+redmi-note-13: 2.199.000
