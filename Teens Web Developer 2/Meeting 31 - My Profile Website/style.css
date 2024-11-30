@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    background-color: #68c24f;
+}
+
+/* MEETING 30 */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Menghilangkan jarak default */
+}
+
+.dropdown-menu {
+    background-color: #68c24f; /* Sesuaikan dengan warna navbar */
+    border: none;
+}
+
+.dropdown-item { 
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #87ea6b; /* Efek hover pada item */
+    color: white;
+}
+
+header {
+    z-index: 1000;
+}
+
+footer {
+    background-color: #68c24f;
+}
+
+#jumbotron {
+    height: 100vh;
+    background-image: url('img/background-jumbotron.jpg');
+    background-size: cover; /* Menyesuaikan gambar dengan ukuran kontainer tanpa terdistorsi */
+    background-position: center; /* Menempatkan gambar di tengah kontainer */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+}
+
+#about-me {
+    height: 100vh;
+    background-color: #68c24f;
+}
+
+#projects {
+    min-height: 100vh;
+}
+
+.text-green {
+    color: #68c24f;
+}
