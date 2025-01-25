@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Challenge 1</title>
+</head>
+<body>
+    <form id="form">
+
+    </form>
+
+    <!-- Jangan Diubah kecuali disuruh -->
+    <script>
+        // Menangani event submit
+        const form = document.querySelector('#form');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault(); // Mencegah reload halaman
+
+            // Ambil data dari form
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries()); // Konversi ke objek JSON
+
+            // Kirim data ke API sebagai JSON
+            try {
+                const response = await fetch('http://ip mister ganti disini:8000/form/challenge1', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                // Tangani respons dari server
+                if (!response.ok) {
+                    throw new Error(await response.text());
+                }
+
+                const result = await response.json();
+                alert('Data berhasil dikirim: ' + JSON.stringify(result));
+            } catch (error) {
+                alert('Terjadi kesalahan: ' + error.message);
+            }
+        });
+    </script>
+</body>
+</html>
