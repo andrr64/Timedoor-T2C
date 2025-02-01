@@ -1,0 +1,37 @@
+=====================================
+section: jumbotron
+
+Mempelajari dasar-dasar HTML, CSS, dan JavaScript untuk membuat
+website yang interaktif dan menarik. Website ini dibuat oleh
+{nama kalian} di Timedoor Harapan Indah
+
+=====================================
+
+
+
+
+
+=====================================
+section: profil
+
+Hi, Saya {nama kalian}
+Seorang siswa Teens Web Developer di Timedoor Harapan Indah. 
+Saya telah mempelajari dasar-dasar HTML, CSS, dan JavaScript, dan terus mengembangkan keterampilan 
+saya dalam pembuatan website. Dengan semangat untuk terus belajar, saya bertekad untuk menciptakan 
+proyek-proyek web yang inovatif dan berguna.
+=====================================
+
+
+=====================================
+section: skill
+
+HTML (HyperText Markup Language) adalah bahasa dasar untuk membuat struktur halaman web. 
+Saya menguasai penggunaan tag HTML untuk membangun halaman yang semantik dan terstruktur dengan baik.
+
+CSS (Cascading Style Sheets) digunakan untuk mempercantik tampilan halaman web. Saya telah menggunakan 
+CSS untuk mendesain layout yang responsif, modern, dan user-friendly.
+
+
+JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web interaktif. Saya menguasai 
+dasar-dasar JavaScript dan menggunakannya untuk menambahkan fungsionalitas dinamis di website.
+=====================================
