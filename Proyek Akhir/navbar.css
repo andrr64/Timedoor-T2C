@@ -1,0 +1,30 @@
+header {
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 140px;
+}
+
+nav .logo {
+    height: 48px;
+}
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}

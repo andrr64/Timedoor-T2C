@@ -1,0 +1,67 @@
+.tinggi-maksimal {
+  height: 100vh;
+}
+
+#jumbotron {
+  background-color: #3fc451;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gelombang {
+  position: absolute;
+  bottom: -2%;
+  width: 100%;
+}
+
+.container {
+  width: 75vw;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.tombol-jumbotron {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-weight: bold;
+  background-color: white;
+  color: #288834;
+}
+
+
+/* SECTION PROFIL */
+#profil {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: start;
+  gap: 120px;
+}
+
+/* SECTION SKILLS */
+#skill {
+  background-color: #3fc451;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#proyek {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tombol-link {
+  text-decoration: none;
+  color: white;
+  background-color: #3fc451;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
