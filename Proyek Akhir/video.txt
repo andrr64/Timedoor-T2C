@@ -1,0 +1,16 @@
+HTML
+https://www.youtube.com/embed/ok-plXXHlWw?si=iV2RvyUrT4y4GWcg
+Video ini memberikan penjelasan singkat tentang HTML, bahasa markup yang digunakan untuk membangun
+struktur dan tampilan halaman web.
+
+
+CSS
+https://www.youtube.com/embed/OEV8gMkCHXQ?si=WxCYhUnvyfTOqywo
+Video ini memberikan penjelasan tentang CSS, bahasa stylesheet yang digunakan untuk mengatur tampilan
+dan layout halaman web
+
+
+Javascript
+https://www.youtube.com/embed/DHjqpvDnNGE?si=euoqwqG4ZNkVPTP1
+Video ini memberikan penjelasan tentang JavaScript, bahasa pemrograman yang digunakan untuk membuat
+halaman web interaktif
